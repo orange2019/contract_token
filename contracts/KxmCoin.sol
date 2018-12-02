@@ -7,7 +7,7 @@ contract KxmCoin is StandardToken {
   uint8 public decimals = 8;  //小数位
   uint256 public INITIAL_SUPPLY = 10000000; //初始化代币总量，如这里1000万
   
-  function constructor() public{
+  constructor() public{
     totalSupply_ = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
   }
