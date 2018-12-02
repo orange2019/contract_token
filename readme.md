@@ -10,3 +10,9 @@ truffle complile
 ```
 truffle migrate
 ```
+
+### 测试环境
+
+```
+npm i ethereumjs-testrpc
+```
